@@ -1,0 +1,13 @@
+args=commandArgs(TRUE)
+library(Seurat)
+library(PRECAST)
+library(ggplot2)
+library(here)
+
+srt = readRDS(here("libd_precast","out_obj",args[[1]]))
+cols_cluster <- chooseColors(palettes_name = "Classic 20", n_colors = 7, plot_colors = TRUE)
+pList <- SpaPlot(srt, item = "cluster", batch = NULL, point_size = 1, cols = cols_cluster, combine = FALSE, nrow.legend = 7)
+pList <- lapply(pList, function(x) x + coord_flip() + scale_x_reverse())
+png(filename=here("libd_precast","out_imgs",paste0("clusters_",args[[1]])))
+drawFigs(pList, layout.dim = c(3, 4), common.legend = TRUE, legend.position = "right", align = "hv")
+dev.off()
