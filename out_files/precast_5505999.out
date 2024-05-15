@@ -1,0 +1,30 @@
+**** JHPCE info ****
+User: jthompso
+Job id: 5505999
+Job name: precast
+Node(s): compute-147
+n Tasks: 3
+Wed May 15 10:56:27 AM EDT 2024
+[[1]]
+[1] "Error in FUN(X[[i]], ...) : unused argument (n.cores = 3)\n"
+attr(,"class")
+[1] "try-error"
+attr(,"condition")
+<simpleError in FUN(X[[i]], ...): unused argument (n.cores = 3)>
+
+[[2]]
+[1] "Error in FUN(X[[i]], ...) : unused argument (n.cores = 3)\n"
+attr(,"class")
+[1] "try-error"
+attr(,"condition")
+<simpleError in FUN(X[[i]], ...): unused argument (n.cores = 3)>
+
+[[3]]
+[1] "Error in FUN(X[[i]], ...) : unused argument (n.cores = 3)\n"
+attr(,"class")
+[1] "try-error"
+attr(,"condition")
+<simpleError in FUN(X[[i]], ...): unused argument (n.cores = 3)>
+
+Finished!
+Wed May 15 10:56:59 AM EDT 2024
