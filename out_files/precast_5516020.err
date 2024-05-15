@@ -1,0 +1,347 @@
+Loading conda_R/devel
+
+Currently Loaded Modules:
+  1) JHPCE_ROCKY9_DEFAULT_ENV   3) conda/3-23.3.1
+  2) JHPCE_tools/3.0            4) conda_R/devel
+
+ 
+
+Loading required package: SeuratObject
+Loading required package: sp
+‘SeuratObject’ was built under R 4.4.0 but the current version is
+4.5.0; it is recomended that you reinstall ‘SeuratObject’ as the ABI
+for R may have changed
+
+Attaching package: ‘SeuratObject’
+
+The following object is masked from ‘package:base’:
+
+    intersect
+
+Loading required package: parallel
+Loading required package: gtools
+PRECAST :  An efficient data integration method is provided for multiple spatial transcriptomics data with non-cluster-relevant effects such as the complex batch effects. It unifies spatial factor analysis simultaneously with spatial clustering and embedding alignment, requiring only partially shared cell/domain clusters across datasets. More details can be referred to Wei Liu, et al. (2023) <doi:10.1038/s41467-023-35947-w>.   Check out our Package website (https://feiyoung.github.io/PRECAST/index.html) for a more complete description of the methods and analyses
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following object is masked from ‘package:SeuratObject’:
+
+    intersect
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:sp’:
+
+    %over%
+
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘SummarizedExperiment’
+
+The following object is masked from ‘package:Seurat’:
+
+    Assays
+
+The following object is masked from ‘package:SeuratObject’:
+
+    Assays
+
+here() starts at /users/jthompso
+Filter spots and features from Raw count data...
+Filter spots and features from Raw count data...
+Filter spots and features from Raw count data...
+ 
+ 
+2024-05-15 15:20:29.186294 : ***** Filtering step for raw count data finished!, 0.288 mins elapsed.
+Select the variable genes for each data batch...
+2024-05-15 15:20:29.253126 : ***** Gene selection finished!, 0.001 mins elapsed.
+ 
+ 
+2024-05-15 15:20:30.322248 : ***** Filtering step for raw count data finished!, 0.306 mins elapsed.
+Select the variable genes for each data batch...
+2024-05-15 15:20:30.380888 : ***** Gene selection finished!, 0.001 mins elapsed.
+ 
+ 
+2024-05-15 15:20:32.015783 : ***** Filtering step for raw count data finished!, 0.336 mins elapsed.
+Select the variable genes for each data batch...
+2024-05-15 15:20:32.079194 : ***** Gene selection finished!, 0.001 mins elapsed.
+Filter spots and features from SVGs(HVGs) count data...
+Filter spots and features from SVGs(HVGs) count data...
+Filter spots and features from SVGs(HVGs) count data...
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+******************Performing log-normalization
+*******************0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+****************|
+***********************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+*******************Performing log-normalization
+********0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+************************************************|
+*************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+******Performing log-normalization
+*************************0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+***********************|
+**********************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+*****************************Performing log-normalization
+********0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+***********************************|
+****************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+************Performing log-normalization
+********************0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+************************|
+********************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+***********************Performing log-normalization
+*************0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+******************************|
+**********************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+***********************Performing log-normalization
+***************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+Performing log-normalization
+**********************0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+***********************************************|
+*******************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+****************Performing log-normalization
+*******************************0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+***|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+*************************2024-05-15 15:20:45.570111 : ***** Filtering step for count data with variable genes finished!, 0.132 mins elapsed.
+*************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+*************************Neighbors were identified for 4215 out of 4215 spots.
+***************2024-05-15 15:20:46.520937 : ***** Filtering step for count data with variable genes finished!, 0.179 mins elapsed.
+**********|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+***************************Neighbors were identified for 4215 out of 4215 spots.
+***********************|
+Neighbors were identified for 4372 out of 4375 spots.
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+*************************************************Neighbors were identified for 4372 out of 4375 spots.
+*|
+Neighbors were identified for 4780 out of 4780 spots.
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Neighbors were identified for 4780 out of 4780 spots.
+Neighbors were identified for 4619 out of 4619 spots.
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+2024-05-15 15:20:51.107589 : ***** Filtering step for count data with variable genes finished!, 0.201 mins elapsed.
+Neighbors were identified for 3648 out of 3650 spots.
+Neighbors were identified for 4619 out of 4619 spots.
+Neighbors were identified for 4215 out of 4215 spots.
+Neighbors were identified for 3484 out of 3486 spots.
+Neighbors were identified for 3648 out of 3650 spots.
+Neighbors were identified for 4372 out of 4375 spots.
+Neighbors were identified for 4096 out of 4096 spots.
+Neighbors were identified for 3484 out of 3486 spots.
+Neighbors were identified for 4005 out of 4005 spots.
+Neighbors were identified for 4096 out of 4096 spots.
+Neighbors were identified for 4780 out of 4780 spots.
+Neighbors were identified for 3627 out of 3628 spots.
+Neighbors were identified for 4005 out of 4005 spots.
+Neighbors were identified for 3658 out of 3661 spots.
+Neighbors were identified for 4619 out of 4619 spots.
+Neighbors were identified for 3627 out of 3628 spots.
+Neighbors were identified for 3648 out of 3650 spots.
+Neighbors were identified for 3658 out of 3661 spots.
+Neighbors were identified for 3577 out of 3583 spots.
+Neighbors were identified for 3577 out of 3583 spots.
+Neighbors were identified for 3484 out of 3486 spots.
+Neighbors were identified for 3446 out of 3450 spots.
+-----Intergrative data info.: 12 samples, 2000 genes X 47548 spots------
+-----PRECAST model setting: error_heter=TRUE, Sigma_equal=TRUE, Sigma_diag=TRUE, mix_prop_heter=TRUE
+Neighbors were identified for 4096 out of 4096 spots.
+Neighbors were identified for 3446 out of 3450 spots.
+Neighbors were identified for 4005 out of 4005 spots.
+Neighbors were identified for 3627 out of 3628 spots.
+Neighbors were identified for 3658 out of 3661 spots.
+-----Intergrative data info.: 12 samples, 1967 genes X 47548 spots------
+-----PRECAST model setting: error_heter=TRUE, Sigma_equal=TRUE, Sigma_diag=TRUE, mix_prop_heter=TRUE
+Neighbors were identified for 3577 out of 3583 spots.
+Neighbors were identified for 3446 out of 3450 spots.
+-----Intergrative data info.: 12 samples, 2000 genes X 47548 spots------
+-----PRECAST model setting: error_heter=TRUE, Sigma_equal=TRUE, Sigma_diag=TRUE, mix_prop_heter=TRUE
+Start computing intial values... 
+
+Start computing intial values... 
+
+Start computing intial values... 
+
+2024-05-15 15:40:22.039025 : ***** Initialization finished!, 18.912 mins elapsed.
+----Fitting PRECAST model----------------
+
+2024-05-15 15:41:58.052015 : ***** Initialization finished!, 20.594 mins elapsed.
+----Fitting PRECAST model----------------
+
+2024-05-15 15:42:20.884564 : ***** Initialization finished!, 20.839 mins elapsed.
+----Fitting PRECAST model----------------
+

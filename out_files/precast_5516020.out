@@ -1,0 +1,66 @@
+**** JHPCE info ****
+User: jthompso
+Job id: 5516020
+Job name: precast
+Node(s): compute-065
+n Tasks: 12
+Wed May 15 03:16:21 PM EDT 2024
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+variable initialize finish! 
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%fitting ...
+  |                                                                              |                                                                      |   0%predict Y and V! 
+diff Energy = 9.045374 
+diff Energy = 11.846889 
+diff Energy = 5.208985 
+diff Energy = 9.013201 
+diff Energy = 1.579778 
+  |                                                                              |======================================================================| 100%
+diff Energy = 2.419903 
+diff Energy = 14.983111 
+diff Energy = 2.525338 
+diff Energy = 7.594999 
+  |                                                                              |===================================                                   |  50%Finish ICM step! 
+  |                                                                              |======================================================================| 100%
+variable initialize finish! 
+variable initialize finish! 
+iter = 2, loglik= -29824220.000000, dloglik=0.986112 
+predict Y and V! 
+diff Energy = 6.724154 
+diff Energy = 0.835880 
+diff Energy = 10.128206 
+diff Energy = 2.891914 
+diff Energy = 7.815546 
+diff Energy = 5.020901 
+diff Energy = 4.528055 
+diff Energy = 1.193851 
+diff Energy = 11.029721 
+Finish ICM step! 
+predict Y and V! 
+diff Energy = 3.279411 
+diff Energy = 2.671471 
+diff Energy = 0.661385 
+diff Energy = 10.418011 
+diff Energy = 13.440687 
+diff Energy = 10.756658 
+diff Energy = 1.653152 
+diff Energy = 13.557118 
+diff Energy = 3.069090 
+diff Energy = 7.310276 
+Finish ICM step! 
+iter = 2, loglik= -8004700.000000, dloglik=0.996273 
+predict Y and V! 
+diff Energy = 0.510205 
+diff Energy = 4.947108 
+diff Energy = 7.079526 
+diff Energy = 0.431491 
+diff Energy = 2.313285 
+diff Energy = 1.143983 
+diff Energy = 0.619717 
+diff Energy = 3.660222 
+diff Energy = 7.334101 
+diff Energy = 2.226929 
+diff Energy = 4.362538 
+diff Energy = 1.456092 
+Finish ICM step! 
