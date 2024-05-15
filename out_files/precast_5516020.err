@@ -345,3 +345,27 @@ Start computing intial values...
 2024-05-15 15:42:20.884564 : ***** Initialization finished!, 20.839 mins elapsed.
 ----Fitting PRECAST model----------------
 
+2024-05-15 16:11:52.321363 : ***** PRECAST model fitting finished!, 29.524 mins elapsed.
+Sigma is set to diagonal matrices 
+
+Using only PRECAST results to obtain the batch corrected gene expressions since species is unknown or the genelist in PRECASTObj has less than 5 overlapp with the housekeeping genes of given species.
+Start integration...
+2024-05-15 16:12:33.435066 : ***** Data integration finished!, 0.612 mins elapsed.
+Put the data into a new Seurat object...
+2024-05-15 16:12:39.159831 : ***** New Seurat object is generated!, 0.095 mins elapsed.
+2024-05-15 16:18:17.505023 : ***** PRECAST model fitting finished!, 37.924 mins elapsed.
+Sigma is set to diagonal matrices 
+
+Using only PRECAST results to obtain the batch corrected gene expressions since species is unknown or the genelist in PRECASTObj has less than 5 overlapp with the housekeeping genes of given species.
+Start integration...
+2024-05-15 16:18:50.894285 : ***** Data integration finished!, 0.535 mins elapsed.
+Put the data into a new Seurat object...
+2024-05-15 16:18:56.598145 : ***** New Seurat object is generated!, 0.095 mins elapsed.
+2024-05-15 16:28:25.449838 : ***** PRECAST model fitting finished!, 46.457 mins elapsed.
+Sigma is set to diagonal matrices 
+
+Using only PRECAST results to obtain the batch corrected gene expressions since species is unknown or the genelist in PRECASTObj has less than 5 overlapp with the housekeeping genes of given species.
+Start integration...
+2024-05-15 16:28:52.471078 : ***** Data integration finished!, 0.439 mins elapsed.
+Put the data into a new Seurat object...
+2024-05-15 16:28:57.094672 : ***** New Seurat object is generated!, 0.077 mins elapsed.

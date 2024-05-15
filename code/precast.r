@@ -23,15 +23,15 @@ srt.sets = mclapply(sample.list, function(x) {
   count <- counts(spe)[,x]
   a1 <- CreateAssayObject(count, assay = "RNA", min.features = 0, min.cells = 0)
   CreateSeuratObject(a1, meta.data = as.data.frame(colData(spe)[x,]))
-}, n.cores=12)
+}, mc.cores=12)
 saveRDS(srt.sets, here("libd_precast","out_obj","srt_libd-full_qc-filt_all-samples.rda"))
 mclapply(seq_along(feature.list), function(x) {
 	preobj = CreatePRECASTObject(seuList = srt.sets, customGenelist=feature.list[[x]], premin.spots=0, premin.features=0, postmin.spots=0, postmin.features=0)
 	preobj@seulist
 	PRECASTObj <- AddAdjList(preobj, platform = "Visium")
-	PRECASTObj <- AddParSetting(PRECASTObj, coreNum = 12, maxIter = 20, verbose = TRUE)
+	PRECASTObj <- AddParSetting(PRECASTObj, coreNum = 12, Sigma_equal=TRUE, maxIter = 30, verbose = TRUE)
 	PRECASTObj <- PRECAST(PRECASTObj, K = 7)
 	PRECASTObj <- SelectModel(PRECASTObj, criteria="MBIC")
 	seuInt = IntegrateSpaData(PRECASTObj, species = "Human")
 	saveRDS(seuInt, here("libd_precast","out_obj",paste0("srt_libd-full_qc-filt_all-samples_precast-",names(feature.list)[x],".rda")))
-}, n.cores=3)
+}, mc.cores=3)
